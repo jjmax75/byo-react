@@ -1,2 +1,3 @@
-const helloWorld = React.createElement('div', null, 'Hello World');
+const Hello = () => React.createElement('div', null, 'Hello World');
+const helloWorld = React.createElement(Hello, null, null);
 ReactDOM.render(helloWorld, document.querySelector('#root'));
